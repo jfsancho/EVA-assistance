@@ -3,6 +3,7 @@ import RFID
 def main():
 
     while(1):
-        id,data=detectRFID()
+        id,data = RFID.detectRFID()
         print(id)
 
+main()
